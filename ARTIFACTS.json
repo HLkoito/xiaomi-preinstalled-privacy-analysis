@@ -1,0 +1,626 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "All publication files except this manifest and .git",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 76,
+      "sha256": "841c00c83519a541a74a527d1fb2b5391c02bd161bbc466f73f5a90b8b715574"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 182,
+      "sha256": "0f6bc82593f441620707721bd43616b9c4700b1da7fa6e7ba1d1ac8fc48ab7f7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3451,
+      "sha256": "0b764fdd95de0b9306b9f55cea4136a057258b39850a801eff3e7ca974d07aae"
+    },
+    {
+      "path": "apps/guardprovider/REPORT.md",
+      "bytes": 7012,
+      "sha256": "10344d8a99a29abe5429a477d294b06e90922b54d6652e4e96821f882d9902ce"
+    },
+    {
+      "path": "apps/guardprovider/SOURCE_REPORT.md",
+      "bytes": 70667,
+      "sha256": "cde9ad966f4d4772f5aa5e9d908004f87c1ff3993c6b45ab035dab83cc08aec8"
+    },
+    {
+      "path": "apps/guardprovider/archival/10_core.md",
+      "bytes": 96800,
+      "sha256": "20d0fd77a1d82ed8576e5534f0f9e3a9deda1b3213515581b6ca265a0782508c"
+    },
+    {
+      "path": "apps/guardprovider/archival/15_obf.md",
+      "bytes": 46016,
+      "sha256": "be6fd55af8c885edbe048bff17fa1eea1def3846296394937d59de8ea3acdf79"
+    },
+    {
+      "path": "apps/guardprovider/archival/20_cloud.md",
+      "bytes": 70235,
+      "sha256": "77ede2b7919af29b3d352d41b411a4c7dc2351976fe8d79fd817eafc9e67adac"
+    },
+    {
+      "path": "apps/guardprovider/archival/30_native.md",
+      "bytes": 90069,
+      "sha256": "db5a1621df5f7b86b38002de8f97261ec8c7f98f918292c9b739273b7204f59d"
+    },
+    {
+      "path": "apps/guardprovider/archival/40_vendor.md",
+      "bytes": 72421,
+      "sha256": "568754fdf73098cb0846b740e9bb22283f7a71403fbab8482f283ba994cf56e3"
+    },
+    {
+      "path": "apps/guardprovider/evidence-index.json",
+      "bytes": 8515,
+      "sha256": "67e319b0fd27a492d8ea4550102812d99b00663b4078dea8a5b57a7c12a97c2f"
+    },
+    {
+      "path": "apps/guardprovider/evidence/AndroidManifest.xml",
+      "bytes": 4120,
+      "sha256": "e7162ea7c6b63cfb8218e536dd6c26bf60a6e7654e68976b78c82f6348a6c89e"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/com/miui/guardprovider/GuardApplication.java",
+      "bytes": 2764,
+      "sha256": "0fa056ec2394de2f6274dbbd4d95f180ab0bd1dd79cc40a0729b55be432294af"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/com/miui/guardprovider/engine/mi/MiEngineNG.java",
+      "bytes": 12425,
+      "sha256": "55eaee13aedcbb679c7e4e5fa0678413dff4465317ad337c045db968f0c2a2a7"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/com/miui/guardprovider/engine/tencent/TencentEngine.java",
+      "bytes": 19296,
+      "sha256": "41db044a8c8c9c66cf1e6ea23c03f41233af1dcc479c7f8dee26b53faf39d30f"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/com/miui/guardprovider/sdk/android/pojo/networkdomain/CloudScanApkInfo.java",
+      "bytes": 6879,
+      "sha256": "9ba58c89604c685d27cacf8f6ba5068c521f290a22e9d2ce95db0caaf57f1f21"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/com/xiaomi/onetrack/Configuration.java",
+      "bytes": 8994,
+      "sha256": "16262c27689c06b18cf80d5bd055a46249a7f08f99ce17440a8bbd5e9859463b"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/com/xiaomi/onetrack/api/c.java",
+      "bytes": 12286,
+      "sha256": "71152cf72e57e0faf8a20356182edffcc17a5f56dd95ab8b975b42e366b4d95d"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/com/xiaomi/onetrack/d/d.java",
+      "bytes": 3642,
+      "sha256": "8392c005b6afe1316a1ba8afbef907990f8733284b13110dd316621d1c430831"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/com/xiaomi/onetrack/util/DeviceUtil.java",
+      "bytes": 44508,
+      "sha256": "7f74724c12c94cfb1fb69dcbe5e15fe00d67d5a8662a6fe124c8cfec1188f777"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/com/xiaomi/onetrack/util/x.java",
+      "bytes": 6030,
+      "sha256": "4a1f9011e4557562d7a44cf3bdb3ade9562a811c18ef069cfa701cd47e5644b2"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/h0/b.java",
+      "bytes": 12957,
+      "sha256": "b3be0ee5d395907a446573491a079d429038f990b98db2934ed346d9f35aaa6d"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/j0/c.java",
+      "bytes": 6619,
+      "sha256": "4f207e374ab8c3040b88977626f26e5ee0a4926e5757b2d70c4fe672509aead5"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/p0/f.java",
+      "bytes": 15275,
+      "sha256": "4598ade02c5d37cdf478321a2f21dc7d63f507d72c849428309a8e7da83ad0b7"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/q0/d.java",
+      "bytes": 1354,
+      "sha256": "b0ef5bac689df18f5ff58bb460a706ccd3d029b998265217d552485a5f930494"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/q0/m.java",
+      "bytes": 387,
+      "sha256": "5e4eff34d8130e5bc00952545c83c9f0541539b97d5fd4fe4f47928356e63534"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/tmsdkobf/p9.java",
+      "bytes": 25088,
+      "sha256": "4b416af86e6eeeb5b4dd329f94285a35975d57f2975b1ffb5f829b21fd1b4e26"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/w0/b.java",
+      "bytes": 691,
+      "sha256": "7cc8c35bd6af8226354f54c77657d4ec4b261c185700db771fee743c5b703775"
+    },
+    {
+      "path": "apps/guardprovider/evidence/java/z/b.java",
+      "bytes": 1734,
+      "sha256": "ff315d44cc02e4a5cd15eb771a1be905862244ca9b17d98fad36fdef26cfeaa3"
+    },
+    {
+      "path": "apps/securitycenter/REPORT.md",
+      "bytes": 5077,
+      "sha256": "df403e689f281114d26b348c2570bfe851db465f102a3c71470c2e372bf84449"
+    },
+    {
+      "path": "apps/securitycenter/REVIEW.md",
+      "bytes": 16509,
+      "sha256": "fb06a683cc504b3a9c40a8c874f75dd4fac86a084b5f638a71a8f062f4d2c02a"
+    },
+    {
+      "path": "apps/securitycenter/SOURCE_REPORT.md",
+      "bytes": 100466,
+      "sha256": "1ca0a13c05b10fbb80697805702d62355febde54c118d50878eccfb8e78a96bc"
+    },
+    {
+      "path": "apps/securitycenter/archival/assets-data.md",
+      "bytes": 64725,
+      "sha256": "bf29ea664b4847b3ad7d65d3a7426d51c2dd396328ac4d884a838e0654dcb576"
+    },
+    {
+      "path": "apps/securitycenter/archival/core-security.md",
+      "bytes": 87312,
+      "sha256": "3591d003323d6fe6c43de668d867b23ec603ce3a03b1005b5ac041dfd253bf1a"
+    },
+    {
+      "path": "apps/securitycenter/archival/manifest-sdk.md",
+      "bytes": 104656,
+      "sha256": "c55ad19cc8530288f889151b121cbe179ce3df341a943ebebca7657944c73e18"
+    },
+    {
+      "path": "apps/securitycenter/archival/native-libs.md",
+      "bytes": 46183,
+      "sha256": "0a17e5411f25cd5858309c627f458ece6446a6f5c46452970f1874dca819a936"
+    },
+    {
+      "path": "apps/securitycenter/archival/network-warning.md",
+      "bytes": 101704,
+      "sha256": "b26f0f9148d719140eddbb6d16a83718992cbf780abedd0c73e2f8131707586f"
+    },
+    {
+      "path": "apps/securitycenter/archival/power-gaming.md",
+      "bytes": 66975,
+      "sha256": "970d7102c894662b91dfec72e4ffca5a3a18694ca8f9cfe1c255ac4bebdd4831"
+    },
+    {
+      "path": "apps/securitycenter/archival/privacy-permcenter.md",
+      "bytes": 82678,
+      "sha256": "815584ca9848a25862b98334505bbe292b8fd9df19804db913cab82b191f59ca"
+    },
+    {
+      "path": "apps/securitycenter/evidence/index.json",
+      "bytes": 16810,
+      "sha256": "1e7b58370e3a3bc0fe56781e2019e189460d86d6df19374307d50dbc02db3436"
+    },
+    {
+      "path": "apps/securitycenter/evidence/manifest/AndroidManifest.xml",
+      "bytes": 198562,
+      "sha256": "0c8e923806b4c237d5481603fb57c170062feceab2b20f3454d0b2723555bca0"
+    },
+    {
+      "path": "apps/securitycenter/evidence/manifest/res/xml/network_security_config.xml",
+      "bytes": 548,
+      "sha256": "37d6de2f9729b34b9a2092c99f207dab3d54433b5a722ca77c5a50e37bab5f34"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/ac/c.java",
+      "bytes": 8941,
+      "sha256": "ce6ee60902feb6495f638aaa17215021cdaa39f8ecd329106a3b57e2a9fc8380"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/analytics/StatManager.java",
+      "bytes": 8829,
+      "sha256": "32f66c86f74a2f0277140f9496df970b5885add5615c588b3814dca5e14c3191"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/antivirus/result/f.java",
+      "bytes": 12566,
+      "sha256": "d7b0029ceadc2a6ba1bdc25c4da95e6cc5ba02ea3757bf6e9457f4132da9a2ab"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/bubbles/services/BubblesNotificationHelper.java",
+      "bytes": 4095,
+      "sha256": "d30251f919fe79aaf2fa1f6e769f918da755e1c43134f2f893e2901e5a91abee"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/bubbles/services/BubblesNotificationListenerService.java",
+      "bytes": 2785,
+      "sha256": "e0c7ea4a1d1bfbbce23306a1a5048322a0443b64feaf84c7a26641d8ad735fae"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/earthquakewarning/service/EarthquakeMonitorDataManager.java",
+      "bytes": 10072,
+      "sha256": "c7af4884426efc677557f22b38a0c5a9fec3b4a90654181c412cfd4bf8cad356"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/earthquakewarning/service/EarthquakeMonitorUtils.java",
+      "bytes": 7559,
+      "sha256": "07030aa78d92521e9bda9f095b6495d0d98bbe0c028ffee27ebeb62b2eecbdbd"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/earthquakewarning/service/EarthquakeWarningService.java",
+      "bytes": 16698,
+      "sha256": "15295ebe7b07d061d7d9c6461f448f068968242af5944108328d452c93fd950a"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/earthquakewarning/ui/EarthquakeWarningMonitorOpenFragment.java",
+      "bytes": 15925,
+      "sha256": "2cf3c25ce9e6b172f621f108d00f07aa66c31fef82609f7992f640d16cd61edd"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/gamebooster/gbservices/AntiMsgAccessibilityService.java",
+      "bytes": 19290,
+      "sha256": "bf4f13073b54f97acd9983a15cc5c47f54bfc65bd8da8003309f660cb134199d"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/monthreport/c.java",
+      "bytes": 10273,
+      "sha256": "17a393f7498c43ddc6b35bd68ddfe59b2939a7630a41901298b09dd68a2a0820"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/networkassistant/service/TcSmsReportService.java",
+      "bytes": 15628,
+      "sha256": "facc36204a75b5b820d814f4b0e4b85b31e26b0295105a5f82da70c4778302ff"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/networkassistant/ui/base/TrafficRelatedPreFragment.java",
+      "bytes": 18405,
+      "sha256": "c43763e9efc3da1f88bc3fa99e5aed8da5a3499fc6fcb77dedc97508aff1aab3"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/networkassistant/ui/fragment/TcSmsReportFragment.java",
+      "bytes": 32532,
+      "sha256": "d6bf6b843b2f4adef1b42fb24d0066f3b9cfeddaec4bbd3cd7e2ec3749f46611"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/networkassistant/utils/DeviceUtil.java",
+      "bytes": 6804,
+      "sha256": "bbf805409aa41f719cd498d84d2613ab2c98d058f1e8bcbe6cbc4ee7dea1d2d7"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/networkassistant/webapi/WebApiAccessHelper.java",
+      "bytes": 6910,
+      "sha256": "09f88640c8f41668d96f018a12e5dfd23f4ac167cbe822381c11208dde15c098"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/permcenter/detection/PrivacyRiskDetectionActivity.java",
+      "bytes": 52056,
+      "sha256": "8102d8015668f127e3052465ee4681fdcb6441462f40bb5a14fe0f393e7c3ae9"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/permcenter/privacycenter/PrivacyCenterProvider.java",
+      "bytes": 4158,
+      "sha256": "e6ddd2bc11811682ea90bd16af3c7de2d3909350beb466dd3caa7c4097a4bdb8"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/policeassist/EPSManager.java",
+      "bytes": 6250,
+      "sha256": "d97ef5469deed4f336c4614e7a092b686f6e6cd95be687ad03a07eb6596161a9"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/privacyapps/PrivacyAppsProvider.java",
+      "bytes": 3245,
+      "sha256": "8d1555a8629addc9ff47e2a1301816b679cac04a046bc3ef96a571ac41e0b65e"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/securitycenter/provider/DeviceCredentialProvider.java",
+      "bytes": 10122,
+      "sha256": "e22e07d16f1b9e0e43616e17cb28cb3ca13fdc332ca2098f8ae6965d652196bb"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/warningcenter/policeassist/PaCommon.java",
+      "bytes": 1845,
+      "sha256": "0620ae523857a42703e0a8c7400038ae53d58dbed3ba33948a28a940d97ef818"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/warningcenter/policeassist/PaService.java",
+      "bytes": 23543,
+      "sha256": "acf55fb59bf3bdaa36f5f643831f07944e5ca7efde0b7f2115bbcd2d8484e219"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/warningcenter/policeassist/PaSettingActivity.java",
+      "bytes": 20500,
+      "sha256": "7f0a3ec21ac5a0f958acf847edfa8510c42dd44f48fc38a6174fac770a9d36f5"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/com/miui/warningcenter/policeassist/PaUtils.java",
+      "bytes": 21912,
+      "sha256": "45800bb5fd0f52aa41318c5e16581cc863d05a1d1eeca136f7f7a9d8723f63a7"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/ef/w.java",
+      "bytes": 355,
+      "sha256": "e0f9124c69918e6df39ab54bb7a4d3da46103bf275fa14f0232dbaf7f940d9be"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/ef/x.java",
+      "bytes": 13119,
+      "sha256": "2c51c29e6e0743f0dfd0e802142023b5324b9b3948856c6585f2508f387e310f"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/eg/c.java",
+      "bytes": 6752,
+      "sha256": "2970242504034efc4212a49c964033c5c73827958be462c8dc35beaf066561e6"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/eg/j.java",
+      "bytes": 43076,
+      "sha256": "a0a90401a2771d961cfe958389bb5c5fd931c80c1fad0f8b4030ada3f9be7a65"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/ma/c.java",
+      "bytes": 243,
+      "sha256": "9de880978bffd11258b374d6076c28adf7ef2af9b3d4e1332cfd65ca9dfd7d35"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/q2/a.java",
+      "bytes": 1511,
+      "sha256": "f1c3ceeb29566948a000bcefed78732527327ed9d415eb3aaccb3568c4f75aee"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/ta/d.java",
+      "bytes": 3777,
+      "sha256": "e0ae8ba42574393f8acba6d6495451c91558b85039440239b6c4ffff958693eb"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/ub/d.java",
+      "bytes": 2138,
+      "sha256": "2432d3b576c4540a53570875e78a27ed8e2f5aee6dff3b934b84e01bdcbdddc4"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/x4/l1.java",
+      "bytes": 1387,
+      "sha256": "778129430ca37a34c526a6e6bbc4a6120bb0b23b904051ba177dd4bac8738e76"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/x4/u1.java",
+      "bytes": 2097,
+      "sha256": "b9697610251b13d0e1bfe3089bb31baecf238c92df46f861c9f9a09a97b77c32"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/xc/h.java",
+      "bytes": 1326,
+      "sha256": "1d376d9624fa8cae0f2edf25b272ce219d66ecf5d84705bc6a6110c4c6e1684c"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/xe/a.java",
+      "bytes": 2181,
+      "sha256": "7172cce563c0eefc13d664c51bdf3f8cb69ce87b771bfc97cfe499e6b4bce215"
+    },
+    {
+      "path": "apps/securitycenter/evidence/sources/y4/a.java",
+      "bytes": 2281,
+      "sha256": "7219634455af5b15cdf1514922722b6757b388a834f0aaaa422fdba1e1925ca6"
+    },
+    {
+      "path": "apps/securitycenter/evidence/verification.json",
+      "bytes": 15938,
+      "sha256": "9e26e2c533182e4cbb47d6902ca675839691f6ae4b30247193f05121c22d0e36"
+    },
+    {
+      "path": "apps/securitycenter/tools/README.md",
+      "bytes": 1588,
+      "sha256": "a46e46f164ecfac5c473d2e5c3fa0ed367732ca85bd0966be0b415a597840ac3"
+    },
+    {
+      "path": "apps/securitycenter/tools/a64scan.mjs",
+      "bytes": 14696,
+      "sha256": "de3520f0110a155ac337abe0b0746ee5ec38c1f73dc1c108dcace01c5fb6be6e"
+    },
+    {
+      "path": "apps/securitycenter/tools/axml2xml.js",
+      "bytes": 9441,
+      "sha256": "ac7361983c0715546ca7291f167fe668775fcbca6b7cad63a69921e9447b6499"
+    },
+    {
+      "path": "apps/securitycenter/tools/dex_str.js",
+      "bytes": 1192,
+      "sha256": "4befe1d0d92058a12cca9e5281ebc1ea485f53ccc6e664b9c0f9b22ed285c28b"
+    },
+    {
+      "path": "apps/securitycenter/tools/package_reports.cjs",
+      "bytes": 6715,
+      "sha256": "c8a8d7796aa06fa99ed2266fca87db1f35cda310918a51d9b17803c01119f7ce"
+    },
+    {
+      "path": "apps/securitycenter/tools/privacy_review_verify.cjs",
+      "bytes": 4599,
+      "sha256": "2bc66faa67e9afae6c37753c13bbef1859d32e436f89f867b30390a73b1942b1"
+    },
+    {
+      "path": "apps/systemhelper/REPORT.md",
+      "bytes": 7454,
+      "sha256": "6bcced23720de0e4482e214eefc0fac7ea8b5c278d75def91e89f6a8a045b44f"
+    },
+    {
+      "path": "apps/systemhelper/SOURCE_REPORT.md",
+      "bytes": 62315,
+      "sha256": "8b8b1a27325b3925e828b2d2210901cd4faa2624b6caf1a9615de300139d2e0d"
+    },
+    {
+      "path": "apps/systemhelper/archival/app-shell.md",
+      "bytes": 43158,
+      "sha256": "c0d7851863a9a1e27e8f4504a4c237cae4792008f4cc55a95c436da113f47b2d"
+    },
+    {
+      "path": "apps/systemhelper/archival/collectors-1.md",
+      "bytes": 63792,
+      "sha256": "928e6b86b34fdef029ea10863e847acedb2e0d8644ea06d186de57949ad1efce"
+    },
+    {
+      "path": "apps/systemhelper/archival/collectors-2.md",
+      "bytes": 83022,
+      "sha256": "b600e15e3ef1b40927ffd4d20355a7c29bf14e581f68bfb43be971d93b844e40"
+    },
+    {
+      "path": "apps/systemhelper/archival/device-core.md",
+      "bytes": 52787,
+      "sha256": "668a4378836ca27b784c23ff4117c75f4e440b0164fae3920f68c7b66ba7e284"
+    },
+    {
+      "path": "apps/systemhelper/evidence-index.json",
+      "bytes": 8245,
+      "sha256": "f4f43d4d38849a4f70a07ed0fc814ff9deed25244c1f6a6f6a2ded9f6200abe3"
+    },
+    {
+      "path": "apps/systemhelper/evidence/AndroidManifest.xml",
+      "bytes": 3920,
+      "sha256": "02dca52bc4405b5c4d45481acb0333ca633fcf7b37884be769425dec2f732cb3"
+    },
+    {
+      "path": "apps/systemhelper/evidence/README.md",
+      "bytes": 581,
+      "sha256": "54f0989ba6e3f716edfae9b73bda05c8234359cbc1ada3ed6c75f17464911939"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/com/mobiletools/systemhelper/control/AppInfoRegisterReceiver.smali",
+      "bytes": 3429,
+      "sha256": "9838e26f88832ca2942235febadced7985eb829f151973e47e6a6f133aa819b7"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/com/mobiletools/systemhelper/control/ConnectStateReceiver.smali",
+      "bytes": 4787,
+      "sha256": "c74434d28be8a5b3ae8b489ffa8086fca407794366fcd384d5e3ee9b2218466f"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/com/mobiletools/systemhelper/control/OnBootReceiver.smali",
+      "bytes": 13028,
+      "sha256": "4cbba1439f118559f73160a0cded0169aeec6b0f0a9f972b379ff3edff065d07"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/com/mobiletools/systemhelper/control/SIMStateReceiver.smali",
+      "bytes": 7406,
+      "sha256": "35ab35512ee1bf5a4c7fe9acfa766649069e1ae5cfb83fa6abfb543495fd50cc"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/com/mobiletools/systemhelper/control/ScheduleRegisterReceiver.smali",
+      "bytes": 3435,
+      "sha256": "44b86cd8cd3d667780af7be8b8544cb032ad7f6565f92959b6a389dbea76ef39"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/com/mobiletools/systemhelper/service/RegisterHelperService$a.smali",
+      "bytes": 4694,
+      "sha256": "011853557174353e9f1d50c4f8cae3954ae08a244233abe3a5db03156dfef67c"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/com/mobiletools/systemhelper/service/RegisterHelperService.smali",
+      "bytes": 3002,
+      "sha256": "76bf3ce811f69afee1b42c9271f40a41b55f85bbf428c7ad72fc494397452653"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/com/mobiletools/systemhelper/service/a$a.smali",
+      "bytes": 3365,
+      "sha256": "1ffc31f80bc645ccf23552fc6bb505cd2b921c008237ce0ae8f4c9bb51f51a46"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/d0/g.smali",
+      "bytes": 54435,
+      "sha256": "c97b871857aa59464f716acb4a181eb7f6ae089ab7e4a6a2d06c7953b42aea65"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/d0/i.smali",
+      "bytes": 15217,
+      "sha256": "4c9bf9e0ab776bf09bba788031f354337ea53790bf5b688a6c5fce3fb07f1d28"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/d0/k.smali",
+      "bytes": 15463,
+      "sha256": "f5192f341ce6606ffb9f709270a87592aa5a1da649a19bd23754cfd3b7892989"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/e0/c2.smali",
+      "bytes": 115095,
+      "sha256": "ad392af3a3e2bf72d46d29eae891a6400e8dbfd3ff7befbe7a46c30b27964c6e"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/e0/r.smali",
+      "bytes": 71727,
+      "sha256": "d91abcf425ecf2963fcd134787b0249223f72d79347c0a184ea6e8b2d11a00f3"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/e0/y1.smali",
+      "bytes": 77245,
+      "sha256": "a27fd4a12b8ed87561f9af4bea9533761e3e2250b38005ef4daf04a55018c5cd"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/f0/b.smali",
+      "bytes": 9700,
+      "sha256": "397848d15b16d536384911c6094c05b33ba0a6d7a0cea6f48ed2703afa3d2aef"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/f0/c.smali",
+      "bytes": 4885,
+      "sha256": "4e142f4939e20e67972fe760f7c8984574be87d60d4568e5631b147d7e70b1a1"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/f0/d.smali",
+      "bytes": 12531,
+      "sha256": "a439dc15b974e1047faff572e53eebd91a6cd8d6ab23b68c7aa884b87a735916"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/f0/f.smali",
+      "bytes": 1513,
+      "sha256": "d3e6c70c925d53cd8710dad390f0fb461f1bd6e18daca7ce50f774b930d8d222"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/f0/g.smali",
+      "bytes": 5261,
+      "sha256": "6873f108724de5621dc3bb1ef1031f9bcf23a01059fd1065dae5fc46dbc847a8"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/f0/k.smali",
+      "bytes": 2947,
+      "sha256": "b00885b48f082c8cf96f04d8123ecbdf0ac2477d59072bde8c16fd4e2bfdf70f"
+    },
+    {
+      "path": "apps/systemhelper/evidence/smali/f0/l.smali",
+      "bytes": 19592,
+      "sha256": "ba37b7537f6babdb2c1fbabd49f8fb8cc4b50b6c30f5e85ced9fa84905e9641c"
+    },
+    {
+      "path": "docs/DATA_FLOWS.md",
+      "bytes": 5493,
+      "sha256": "3b1c5265ba208a747e95cdc96e1300a3a675cbe27e42da4ce1b0420c661b0239"
+    },
+    {
+      "path": "docs/METHODOLOGY.md",
+      "bytes": 2917,
+      "sha256": "e9924bd2e93f132f9f865276094baab7455c6ad5e365f964d088fff66d3de846"
+    },
+    {
+      "path": "docs/PRIVACY.md",
+      "bytes": 1644,
+      "sha256": "82331ae00cfbaf00a89f2f7276f556ca75d1a9a4f704e0e7c52fd00dd047f991"
+    },
+    {
+      "path": "samples/manifest.json",
+      "bytes": 993,
+      "sha256": "af4bfd9b677743b9ffd08ffa49f9524890e281d91a945715ebf0a87c3d70a3cf"
+    },
+    {
+      "path": "tools/privacy-check.mjs",
+      "bytes": 2198,
+      "sha256": "df21a6751e8f553466f597e3e9660158a3ed4c6e4fa936311a83c8aaa842886b"
+    },
+    {
+      "path": "tools/verify-integrity.mjs",
+      "bytes": 833,
+      "sha256": "262f1141c763a859ec624e75c5ba775e90deda7a7edf28f04ee6afd5b2e005cf"
+    },
+    {
+      "path": "validation/publication-check.json",
+      "bytes": 892,
+      "sha256": "1f02f77ebe531cfb2b90875fa1e6fb1fe6302b83013f74ac3ec18876c5828740"
+    }
+  ]
+}

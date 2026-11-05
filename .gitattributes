@@ -1,0 +1,2 @@
+# Preserve exact bytes and source line endings for evidence hashes.
+* -text

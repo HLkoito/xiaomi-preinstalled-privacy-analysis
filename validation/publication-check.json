@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-06",
+  "scope": "Sanitized static analysis publication",
+  "checks": {
+    "privacyRules": {
+      "passed": true
+    },
+    "selectedEvidence": {
+      "passed": true,
+      "uniqueFiles": 80,
+      "checkedReferences": 88
+    },
+    "sourceSamples": {
+      "passed": true,
+      "checked": 3
+    },
+    "manualCandidateReview": {
+      "passed": true,
+      "categories": [
+        "Built-in SDK service IP addresses",
+        "Public certificate fingerprints",
+        "Software numeric constants and probability tables",
+        "Application IDs and service numbers",
+        "Hardcoded protocol and business identifiers"
+      ],
+      "sourceDeviceLogsExcluded": true
+    },
+    "sourceReferences": {
+      "passed": true
+    },
+    "commitIdentity": {
+      "name": "Privacy Research",
+      "email": "research@example.invalid"
+    }
+  },
+  "evidenceFiles": 80
+}

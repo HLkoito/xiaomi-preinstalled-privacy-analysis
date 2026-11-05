@@ -1,0 +1,29 @@
+{
+  "scope": "Three preinstalled applications exported from one source device; static code analysis",
+  "samples": [
+    {
+      "package": "com.mobiletools.systemhelper",
+      "versionName": "1.2-20230925-U",
+      "versionCode": 3,
+      "fileName": "SystemHelper-1.2-20230925-U.apk",
+      "bytes": 911821,
+      "sha256": "efa1af0d0be75985701fd0eca79a90f0be0bb9fd2735245915200ec1a3e9657f"
+    },
+    {
+      "package": "com.miui.guardprovider",
+      "versionName": "2.0.3-20231124.0",
+      "versionCode": 209,
+      "fileName": "GuardProvider-2.0.3-20231124.0.apk",
+      "bytes": 13251548,
+      "sha256": "b0c02fa682b8ca82429b471113d0702042ac76234c85fdcd8efeb7c03d313024"
+    },
+    {
+      "package": "com.miui.securitycenter",
+      "versionName": "10.4.9-250402.0.1",
+      "versionCode": 40001049,
+      "fileName": "MIUISecurityCenter-10.4.9-250402.0.1.apk",
+      "bytes": 66917411,
+      "sha256": "fc63de0eb68016fc2c7469ec6d33364ffef073643fea9e86781e5fcb1c678cfd"
+    }
+  ]
+}

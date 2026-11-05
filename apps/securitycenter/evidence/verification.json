@@ -1,0 +1,373 @@
+{
+  "date": "2026-11-06",
+  "method": "Offline shell/Node verification, not REA Evidence. Existing decompiled sources audited; no target execution or traffic capture. ZIP/DEX strings corroborate membership only, not control flow or decompiler correctness.",
+  "apk": {
+    "filename": "MIUISecurityCenter-10.4.9-250402.0.1.apk",
+    "size": 66917411,
+    "sha256": "fc63de0eb68016fc2c7469ec6d33364ffef073643fea9e86781e5fcb1c678cfd"
+  },
+  "dex": [
+    {
+      "name": "classes.dex",
+      "size": 8142528,
+      "sha256": "45468886a24d218ef81534e0592f14bd7ef5dc9970c24896eeab2a84b43ff9a0",
+      "string_ids_size": 56884,
+      "extracted_copy_matches": true
+    },
+    {
+      "name": "classes2.dex",
+      "size": 8835532,
+      "sha256": "e90621165cf5ba9222aa64d48eb90a9e926354f69f1d6f460966ebb279959180",
+      "string_ids_size": 63200,
+      "extracted_copy_matches": true
+    },
+    {
+      "name": "classes3.dex",
+      "size": 7543548,
+      "sha256": "9e77e52010629e0598639246f3e1b564b764b36e52527c5388992d1cd9e5035e",
+      "string_ids_size": 52577,
+      "extracted_copy_matches": true
+    }
+  ],
+  "string_presence": {
+    "https://adv.sec.miui.com/info/layout": [
+      "classes2.dex",
+      "classes3.dex"
+    ],
+    "https://flash.sec.miui.com": [
+      "classes2.dex"
+    ],
+    "/user/ra": [
+      "classes2.dex"
+    ],
+    "rivacy_risk_check": [
+      "classes2.dex"
+    ],
+    "isPersonalizedAdEnabled": [
+      "classes3.dex"
+    ],
+    "ror": [
+      "classes3.dex"
+    ],
+    "rbr": [
+      "classes3.dex"
+    ],
+    "getOAID": [
+      "classes2.dex",
+      "classes3.dex"
+    ],
+    "https://api.sec.miui.com/v1/traffic/report": [
+      "classes2.dex"
+    ],
+    "https://api.miui.security.xiaomi.com/netassist/flow/queryflow": [
+      "classes2.dex"
+    ],
+    "https://gateway-papa.cloud.weizhi.com/papa/upload": [
+      "classes3.dex"
+    ],
+    "https://eps.caict.ac.cn/eps/collect": [
+      "classes3.dex"
+    ],
+    "https://api.sec.miui.com/earthquake/volunteer/sensor/upload": [
+      "classes2.dex"
+    ],
+    "FBO_new_trigger": [
+      "classes2.dex"
+    ],
+    "KEY_SECURITY_CENTER_ALLOW_CONNECT_NETWORK": [
+      "classes2.dex",
+      "classes3.dex"
+    ]
+  },
+  "reviewed_source_hashes": [
+    {
+      "path": "evidence/sources/com/miui/antivirus/result/f.java",
+      "sha256": "d7b0029ceadc2a6ba1bdc25c4da95e6cc5ba02ea3757bf6e9457f4132da9a2ab",
+      "published_sha256": "d7b0029ceadc2a6ba1bdc25c4da95e6cc5ba02ea3757bf6e9457f4132da9a2ab",
+      "lines": 320
+    },
+    {
+      "path": "evidence/sources/eg/j.java",
+      "sha256": "a0a90401a2771d961cfe958389bb5c5fd931c80c1fad0f8b4030ada3f9be7a65",
+      "published_sha256": "a0a90401a2771d961cfe958389bb5c5fd931c80c1fad0f8b4030ada3f9be7a65",
+      "lines": 1099
+    },
+    {
+      "path": "evidence/sources/eg/j.java",
+      "sha256": "a0a90401a2771d961cfe958389bb5c5fd931c80c1fad0f8b4030ada3f9be7a65",
+      "published_sha256": "a0a90401a2771d961cfe958389bb5c5fd931c80c1fad0f8b4030ada3f9be7a65",
+      "lines": 1099
+    },
+    {
+      "path": "evidence/sources/q2/a.java",
+      "sha256": "f1c3ceeb29566948a000bcefed78732527327ed9d415eb3aaccb3568c4f75aee",
+      "published_sha256": "f1c3ceeb29566948a000bcefed78732527327ed9d415eb3aaccb3568c4f75aee",
+      "lines": 48
+    },
+    {
+      "path": "evidence/sources/xe/a.java",
+      "sha256": "7172cce563c0eefc13d664c51bdf3f8cb69ce87b771bfc97cfe499e6b4bce215",
+      "published_sha256": "7172cce563c0eefc13d664c51bdf3f8cb69ce87b771bfc97cfe499e6b4bce215",
+      "lines": 68
+    },
+    {
+      "path": "evidence/sources/eg/c.java",
+      "sha256": "2970242504034efc4212a49c964033c5c73827958be462c8dc35beaf066561e6",
+      "published_sha256": "2970242504034efc4212a49c964033c5c73827958be462c8dc35beaf066561e6",
+      "lines": 178
+    },
+    {
+      "path": "evidence/sources/y4/a.java",
+      "sha256": "7219634455af5b15cdf1514922722b6757b388a834f0aaaa422fdba1e1925ca6",
+      "published_sha256": "7219634455af5b15cdf1514922722b6757b388a834f0aaaa422fdba1e1925ca6",
+      "lines": 71
+    },
+    {
+      "path": "evidence/sources/com/miui/permcenter/detection/PrivacyRiskDetectionActivity.java",
+      "sha256": "8102d8015668f127e3052465ee4681fdcb6441462f40bb5a14fe0f393e7c3ae9",
+      "published_sha256": "8102d8015668f127e3052465ee4681fdcb6441462f40bb5a14fe0f393e7c3ae9",
+      "lines": 1181
+    },
+    {
+      "path": "evidence/sources/com/miui/permcenter/detection/PrivacyRiskDetectionActivity.java",
+      "sha256": "8102d8015668f127e3052465ee4681fdcb6441462f40bb5a14fe0f393e7c3ae9",
+      "published_sha256": "8102d8015668f127e3052465ee4681fdcb6441462f40bb5a14fe0f393e7c3ae9",
+      "lines": 1181
+    },
+    {
+      "path": "evidence/sources/ub/d.java",
+      "sha256": "2432d3b576c4540a53570875e78a27ed8e2f5aee6dff3b934b84e01bdcbdddc4",
+      "published_sha256": "2432d3b576c4540a53570875e78a27ed8e2f5aee6dff3b934b84e01bdcbdddc4",
+      "lines": 62
+    },
+    {
+      "path": "evidence/sources/xc/h.java",
+      "sha256": "1d376d9624fa8cae0f2edf25b272ce219d66ecf5d84705bc6a6110c4c6e1684c",
+      "published_sha256": "1d376d9624fa8cae0f2edf25b272ce219d66ecf5d84705bc6a6110c4c6e1684c",
+      "lines": 30
+    },
+    {
+      "path": "evidence/sources/ac/c.java",
+      "sha256": "ce6ee60902feb6495f638aaa17215021cdaa39f8ecd329106a3b57e2a9fc8380",
+      "published_sha256": "ce6ee60902feb6495f638aaa17215021cdaa39f8ecd329106a3b57e2a9fc8380",
+      "lines": 206
+    },
+    {
+      "path": "evidence/sources/ac/c.java",
+      "sha256": "ce6ee60902feb6495f638aaa17215021cdaa39f8ecd329106a3b57e2a9fc8380",
+      "published_sha256": "ce6ee60902feb6495f638aaa17215021cdaa39f8ecd329106a3b57e2a9fc8380",
+      "lines": 206
+    },
+    {
+      "path": "evidence/sources/com/miui/networkassistant/ui/base/TrafficRelatedPreFragment.java",
+      "sha256": "c43763e9efc3da1f88bc3fa99e5aed8da5a3499fc6fcb77dedc97508aff1aab3",
+      "published_sha256": "c43763e9efc3da1f88bc3fa99e5aed8da5a3499fc6fcb77dedc97508aff1aab3",
+      "lines": 387
+    },
+    {
+      "path": "evidence/sources/com/miui/networkassistant/webapi/WebApiAccessHelper.java",
+      "sha256": "09f88640c8f41668d96f018a12e5dfd23f4ac167cbe822381c11208dde15c098",
+      "published_sha256": "09f88640c8f41668d96f018a12e5dfd23f4ac167cbe822381c11208dde15c098",
+      "lines": 122
+    },
+    {
+      "path": "evidence/sources/com/miui/networkassistant/utils/DeviceUtil.java",
+      "sha256": "bbf805409aa41f719cd498d84d2613ab2c98d058f1e8bcbe6cbc4ee7dea1d2d7",
+      "published_sha256": "bbf805409aa41f719cd498d84d2613ab2c98d058f1e8bcbe6cbc4ee7dea1d2d7",
+      "lines": 171
+    },
+    {
+      "path": "evidence/sources/com/miui/networkassistant/service/TcSmsReportService.java",
+      "sha256": "facc36204a75b5b820d814f4b0e4b85b31e26b0295105a5f82da70c4778302ff",
+      "published_sha256": "facc36204a75b5b820d814f4b0e4b85b31e26b0295105a5f82da70c4778302ff",
+      "lines": 377
+    },
+    {
+      "path": "evidence/sources/com/miui/networkassistant/service/TcSmsReportService.java",
+      "sha256": "facc36204a75b5b820d814f4b0e4b85b31e26b0295105a5f82da70c4778302ff",
+      "published_sha256": "facc36204a75b5b820d814f4b0e4b85b31e26b0295105a5f82da70c4778302ff",
+      "lines": 377
+    },
+    {
+      "path": "evidence/sources/com/miui/networkassistant/webapi/WebApiAccessHelper.java",
+      "sha256": "09f88640c8f41668d96f018a12e5dfd23f4ac167cbe822381c11208dde15c098",
+      "published_sha256": "09f88640c8f41668d96f018a12e5dfd23f4ac167cbe822381c11208dde15c098",
+      "lines": 122
+    },
+    {
+      "path": "evidence/sources/com/miui/networkassistant/ui/fragment/TcSmsReportFragment.java",
+      "sha256": "d6bf6b843b2f4adef1b42fb24d0066f3b9cfeddaec4bbd3cd7e2ec3749f46611",
+      "published_sha256": "d6bf6b843b2f4adef1b42fb24d0066f3b9cfeddaec4bbd3cd7e2ec3749f46611",
+      "lines": 542
+    },
+    {
+      "path": "evidence/sources/com/miui/warningcenter/policeassist/PaService.java",
+      "sha256": "acf55fb59bf3bdaa36f5f643831f07944e5ca7efde0b7f2115bbcd2d8484e219",
+      "published_sha256": "acf55fb59bf3bdaa36f5f643831f07944e5ca7efde0b7f2115bbcd2d8484e219",
+      "lines": 540
+    },
+    {
+      "path": "evidence/sources/com/miui/warningcenter/policeassist/PaUtils.java",
+      "sha256": "45800bb5fd0f52aa41318c5e16581cc863d05a1d1eeca136f7f7a9d8723f63a7",
+      "published_sha256": "45800bb5fd0f52aa41318c5e16581cc863d05a1d1eeca136f7f7a9d8723f63a7",
+      "lines": 462
+    },
+    {
+      "path": "evidence/sources/com/miui/policeassist/EPSManager.java",
+      "sha256": "d97ef5469deed4f336c4614e7a092b686f6e6cd95be687ad03a07eb6596161a9",
+      "published_sha256": "d97ef5469deed4f336c4614e7a092b686f6e6cd95be687ad03a07eb6596161a9",
+      "lines": 145
+    },
+    {
+      "path": "evidence/sources/com/miui/policeassist/EPSManager.java",
+      "sha256": "d97ef5469deed4f336c4614e7a092b686f6e6cd95be687ad03a07eb6596161a9",
+      "published_sha256": "d97ef5469deed4f336c4614e7a092b686f6e6cd95be687ad03a07eb6596161a9",
+      "lines": 145
+    },
+    {
+      "path": "evidence/sources/com/miui/warningcenter/policeassist/PaCommon.java",
+      "sha256": "0620ae523857a42703e0a8c7400038ae53d58dbed3ba33948a28a940d97ef818",
+      "published_sha256": "0620ae523857a42703e0a8c7400038ae53d58dbed3ba33948a28a940d97ef818",
+      "lines": 30
+    },
+    {
+      "path": "evidence/sources/com/miui/warningcenter/policeassist/PaUtils.java",
+      "sha256": "45800bb5fd0f52aa41318c5e16581cc863d05a1d1eeca136f7f7a9d8723f63a7",
+      "published_sha256": "45800bb5fd0f52aa41318c5e16581cc863d05a1d1eeca136f7f7a9d8723f63a7",
+      "lines": 462
+    },
+    {
+      "path": "evidence/sources/com/miui/earthquakewarning/service/EarthquakeMonitorDataManager.java",
+      "sha256": "c7af4884426efc677557f22b38a0c5a9fec3b4a90654181c412cfd4bf8cad356",
+      "published_sha256": "c7af4884426efc677557f22b38a0c5a9fec3b4a90654181c412cfd4bf8cad356",
+      "lines": 224
+    },
+    {
+      "path": "evidence/sources/com/miui/earthquakewarning/service/EarthquakeMonitorUtils.java",
+      "sha256": "07030aa78d92521e9bda9f095b6495d0d98bbe0c028ffee27ebeb62b2eecbdbd",
+      "published_sha256": "07030aa78d92521e9bda9f095b6495d0d98bbe0c028ffee27ebeb62b2eecbdbd",
+      "lines": 171
+    },
+    {
+      "path": "evidence/sources/com/miui/earthquakewarning/service/EarthquakeWarningService.java",
+      "sha256": "15295ebe7b07d061d7d9c6461f448f068968242af5944108328d452c93fd950a",
+      "published_sha256": "15295ebe7b07d061d7d9c6461f448f068968242af5944108328d452c93fd950a",
+      "lines": 346
+    },
+    {
+      "path": "evidence/sources/com/miui/earthquakewarning/ui/EarthquakeWarningMonitorOpenFragment.java",
+      "sha256": "2cf3c25ce9e6b172f621f108d00f07aa66c31fef82609f7992f640d16cd61edd",
+      "published_sha256": "2cf3c25ce9e6b172f621f108d00f07aa66c31fef82609f7992f640d16cd61edd",
+      "lines": 325
+    },
+    {
+      "path": "evidence/sources/com/miui/bubbles/services/BubblesNotificationListenerService.java",
+      "sha256": "e0c7ea4a1d1bfbbce23306a1a5048322a0443b64feaf84c7a26641d8ad735fae",
+      "published_sha256": "e0c7ea4a1d1bfbbce23306a1a5048322a0443b64feaf84c7a26641d8ad735fae",
+      "lines": 54
+    },
+    {
+      "path": "evidence/sources/com/miui/bubbles/services/BubblesNotificationHelper.java",
+      "sha256": "d30251f919fe79aaf2fa1f6e769f918da755e1c43134f2f893e2901e5a91abee",
+      "published_sha256": "d30251f919fe79aaf2fa1f6e769f918da755e1c43134f2f893e2901e5a91abee",
+      "lines": 86
+    },
+    {
+      "path": "evidence/sources/com/miui/gamebooster/gbservices/AntiMsgAccessibilityService.java",
+      "sha256": "bf4f13073b54f97acd9983a15cc5c47f54bfc65bd8da8003309f660cb134199d",
+      "published_sha256": "bf4f13073b54f97acd9983a15cc5c47f54bfc65bd8da8003309f660cb134199d",
+      "lines": 487
+    },
+    {
+      "path": "evidence/sources/com/miui/gamebooster/gbservices/AntiMsgAccessibilityService.java",
+      "sha256": "bf4f13073b54f97acd9983a15cc5c47f54bfc65bd8da8003309f660cb134199d",
+      "published_sha256": "bf4f13073b54f97acd9983a15cc5c47f54bfc65bd8da8003309f660cb134199d",
+      "lines": 487
+    },
+    {
+      "path": "evidence/sources/com/miui/analytics/StatManager.java",
+      "sha256": "32f66c86f74a2f0277140f9496df970b5885add5615c588b3814dca5e14c3191",
+      "published_sha256": "32f66c86f74a2f0277140f9496df970b5885add5615c588b3814dca5e14c3191",
+      "lines": 173
+    },
+    {
+      "path": "evidence/sources/ta/d.java",
+      "sha256": "e0ae8ba42574393f8acba6d6495451c91558b85039440239b6c4ffff958693eb",
+      "published_sha256": "e0ae8ba42574393f8acba6d6495451c91558b85039440239b6c4ffff958693eb",
+      "lines": 105
+    },
+    {
+      "path": "evidence/sources/com/miui/securitycenter/provider/DeviceCredentialProvider.java",
+      "sha256": "e22e07d16f1b9e0e43616e17cb28cb3ca13fdc332ca2098f8ae6965d652196bb",
+      "published_sha256": "e22e07d16f1b9e0e43616e17cb28cb3ca13fdc332ca2098f8ae6965d652196bb",
+      "lines": 217
+    },
+    {
+      "path": "evidence/sources/com/miui/permcenter/privacycenter/PrivacyCenterProvider.java",
+      "sha256": "e6ddd2bc11811682ea90bd16af3c7de2d3909350beb466dd3caa7c4097a4bdb8",
+      "published_sha256": "e6ddd2bc11811682ea90bd16af3c7de2d3909350beb466dd3caa7c4097a4bdb8",
+      "lines": 123
+    },
+    {
+      "path": "evidence/sources/com/miui/monthreport/c.java",
+      "sha256": "17a393f7498c43ddc6b35bd68ddfe59b2939a7630a41901298b09dd68a2a0820",
+      "published_sha256": "17a393f7498c43ddc6b35bd68ddfe59b2939a7630a41901298b09dd68a2a0820",
+      "lines": 278
+    },
+    {
+      "path": "evidence/sources/ma/c.java",
+      "sha256": "9de880978bffd11258b374d6076c28adf7ef2af9b3d4e1332cfd65ca9dfd7d35",
+      "published_sha256": "9de880978bffd11258b374d6076c28adf7ef2af9b3d4e1332cfd65ca9dfd7d35",
+      "lines": 13
+    },
+    {
+      "path": "evidence/manifest/AndroidManifest.xml",
+      "sha256": "0c8e923806b4c237d5481603fb57c170062feceab2b20f3454d0b2723555bca0",
+      "published_sha256": "0c8e923806b4c237d5481603fb57c170062feceab2b20f3454d0b2723555bca0",
+      "lines": 1831
+    },
+    {
+      "path": "evidence/manifest/res/xml/network_security_config.xml",
+      "sha256": "37d6de2f9729b34b9a2092c99f207dab3d54433b5a722ca77c5a50e37bab5f34",
+      "published_sha256": "37d6de2f9729b34b9a2092c99f207dab3d54433b5a722ca77c5a50e37bab5f34",
+      "lines": 14
+    },
+    {
+      "path": "evidence/sources/ef/w.java",
+      "sha256": "e0f9124c69918e6df39ab54bb7a4d3da46103bf275fa14f0232dbaf7f940d9be",
+      "published_sha256": "e0f9124c69918e6df39ab54bb7a4d3da46103bf275fa14f0232dbaf7f940d9be",
+      "lines": 16
+    },
+    {
+      "path": "evidence/sources/x4/l1.java",
+      "sha256": "778129430ca37a34c526a6e6bbc4a6120bb0b23b904051ba177dd4bac8738e76",
+      "published_sha256": "778129430ca37a34c526a6e6bbc4a6120bb0b23b904051ba177dd4bac8738e76",
+      "lines": 36
+    },
+    {
+      "path": "evidence/sources/ef/x.java",
+      "sha256": "2c51c29e6e0743f0dfd0e802142023b5324b9b3948856c6585f2508f387e310f",
+      "published_sha256": "2c51c29e6e0743f0dfd0e802142023b5324b9b3948856c6585f2508f387e310f",
+      "lines": 350
+    },
+    {
+      "path": "evidence/sources/x4/u1.java",
+      "sha256": "b9697610251b13d0e1bfe3089bb31baecf238c92df46f861c9f9a09a97b77c32",
+      "published_sha256": "b9697610251b13d0e1bfe3089bb31baecf238c92df46f861c9f9a09a97b77c32",
+      "lines": 68
+    },
+    {
+      "path": "evidence/sources/com/miui/warningcenter/policeassist/PaSettingActivity.java",
+      "sha256": "7f0a3ec21ac5a0f958acf847edfa8510c42dd44f48fc38a6174fac770a9d36f5",
+      "published_sha256": "7f0a3ec21ac5a0f958acf847edfa8510c42dd44f48fc38a6174fac770a9d36f5",
+      "lines": 428
+    },
+    {
+      "path": "evidence/sources/com/miui/privacyapps/PrivacyAppsProvider.java",
+      "sha256": "8d1555a8629addc9ff47e2a1301816b679cac04a046bc3ef96a571ac41e0b65e",
+      "published_sha256": "8d1555a8629addc9ff47e2a1301816b679cac04a046bc3ef96a571ac41e0b65e",
+      "lines": 96
+    }
+  ],
+  "publication_note": "Local identity and paths removed. This records prior static checks; no execution or traffic evidence."
+}
