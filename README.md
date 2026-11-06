@@ -1,46 +1,51 @@
-# 小米三个内置应用的隐私数据行为分析
+# Xiaomi Preinstalled Applications — Privacy and Reverse Engineering
 
-整理日期：2026-11-06。本文基于同一来源设备导出的三个 APK 的静态代码分析，按“数据来源 → 字段处理 → 触发条件 → 发送目的地”整理采集与外发实现。
+Static analysis of five preinstalled Android application samples. Each study follows data sources, field construction, conditions, local storage and implemented transmission paths. Findings apply to the exact versions and hashes in the [sample manifest](samples/manifest.json).
 
-## 主要发现
+## English reports
 
-| 应用 | 采集的数据 | 发送路径与条件 | 详细报告 |
-|---|---|---|---|
-| SystemHelper | 双卡设备/SIM 标识、小区信息、设备配置；UsageStats 应用使用记录与应用流量 | 开机、SIM 变化及定时任务等进入注册流程；JSON 经 AES 处理后通过 HTTP 发送，默认 `dm.wo.com.cn:18080/registerv3` | [报告](apps/systemhelper/REPORT.md) |
-| GuardProvider | 非系统应用名称、包名、版本、签名 MD5，持久 UUID；Wi-Fi SSID、BSSID、DNS；扫描与统计信息 | 应用清单进入 `flash.sec.miui.com/detect/app`；Wi-Fi 检测使用腾讯 SDK；OneTrack 标识采集有区域及隐私门控 | [报告](apps/guardprovider/REPORT.md) |
-| MIUI 安全中心 | 广告请求中的 Android ID、OAID、设备 ID 摘要、复合指纹及设备状态；非系统应用包名/版本 | 国内广告布局请求进入 `adv.sec.miui.com/info/layout`；隐私检测页面启动清单请求，发送至 `flash.sec.miui.com/user/ra`；发送检查联网许可 | [报告](apps/securitycenter/REPORT.md) · [逐链路复核](apps/securitycenter/REVIEW.md) |
+| Application | Principal findings | Report and evidence |
+|---|---|---|
+| MIUI Analytics 6.33.0 | Device/SIM/account identifier association; application inventory; usage timelines; conditional radio and coordinate location; OneTrack and international Pub/Sub paths; event-specific privacy controls | [Complete report](apps/analytics/REPORT.md) · [Source excerpts](apps/analytics/EVIDENCE.md) · [Evidence index](apps/analytics/evidence-index.json) |
+| MiuiDaemon 2.0 | Application/process memory and activity telemetry; exception/diagnostic disclosure risks; authentication-behavior metadata; retail versus unreleased-device heartbeat scope; certificate-validation weakness in the direct performance uploader | [Complete report](apps/miuidaemon/REPORT.md) · [Source excerpts](apps/miuidaemon/EVIDENCE.md) · [Evidence index](apps/miuidaemon/evidence-index.json) |
 
-安全中心还包含流量业务中的 SIM/号码关联、经确认的校准短信上报、报警辅助位置共享，以及加入地震志愿者后的传感器贡献。各项的具体字段、设置和同意流程见[数据流总表](docs/DATA_FLOWS.md)。
+The reports distinguish static implementations, privacy implications and runtime questions. An implemented request is evidence of transmission capability, not proof of a transfer from a particular device. Hashing and encryption are described according to their actual functions; neither is treated as a blanket guarantee of anonymity.
 
-最值得关注的组合是：**稳定设备标识与应用行为关联**、**批量非系统应用清单外发**、**SIM/设备/基站数据注册**。MD5 或 SHA-1 对同一输入给出稳定摘要，具有持续关联价值；使用摘要与使用随机标识是两种不同的处理方式。
+The two reports include 39 selected, source-numbered evidence entries. Their publication scope, redaction rules and evidence conventions are documented in [Analytics and MiuiDaemon: Publication Scope and Method](docs/ANALYTICS_DAEMON_PUBLICATION.md).
 
-## 阅读顺序
+## Earlier studies
 
-1. [数据流总表](docs/DATA_FLOWS.md)：对照字段、触发条件、目的地与证据。
-2. 三份 `apps/*/REPORT.md`：本次整理的最终结论。
-3. 各应用 `evidence/` 和证据索引：选取的完整反编译文本、原行号与 SHA-256。
-4. `SOURCE_REPORT.md` 和 `archival/`：原分析的脱敏历史资料，带版本纠错提示。
-5. [方法与来源](docs/METHODOLOGY.md)、[样本身份](samples/manifest.json)、[隐私处理说明](docs/PRIVACY.md)。
+The existing Chinese-language studies remain available:
 
-## 样本范围
+| Application | Report |
+|---|---|
+| SystemHelper `1.2-20230925-U` | [Report](apps/systemhelper/REPORT.md) |
+| GuardProvider `2.0.3-20231124.0` | [Report](apps/guardprovider/REPORT.md) |
+| MIUI Security Center `10.4.9-250402.0.1` | [Report](apps/securitycenter/REPORT.md) · [Detailed verification](apps/securitycenter/REVIEW.md) |
 
-| 包名 | 版本 | versionCode |
+Their [data-flow table](docs/DATA_FLOWS.md), [methodology](docs/METHODOLOGY.md), [privacy treatment](docs/PRIVACY.md) and evidence indexes document the scope of those three studies.
+
+## Sample identity
+
+| Package | Version | Version code |
 |---|---|---:|
+| `com.miui.analytics` | `6.33.0` | 2026091500 |
+| `com.miui.daemon` | `2.0` | 30 |
 | `com.mobiletools.systemhelper` | `1.2-20230925-U` | 3 |
 | `com.miui.guardprovider` | `2.0.3-20231124.0` | 209 |
 | `com.miui.securitycenter` | `10.4.9-250402.0.1` | 40001049 |
 
-这些版本构成本文结论的适用范围。完整 SHA-256 及字节大小见[样本清单](samples/manifest.json)。仓库以应用样本定义研究对象，来源设备的个人信息留在本地。
+Sample hashes identify software artifacts. Device-owner identities, acquired personal values and raw device records are excluded from the publication.
 
-## 离线核验
+## Offline verification
 
-需要 Node.js 18 或更新版本。在仓库根目录运行：
+With Node.js 18 or newer, run from the repository root:
 
 ```sh
 node tools/verify-integrity.mjs
 node tools/privacy-check.mjs
 ```
 
-[文件清单](ARTIFACTS.json)记录发布文件的 SHA-256；[检查结果](validation/publication-check.json)记录本次自动检查。隐私检查规则用于辅助人工审阅，具体处理范围见[隐私处理说明](docs/PRIVACY.md)。
+[ARTIFACTS.json](ARTIFACTS.json) records publication file hashes. [The validation record](validation/analytics-daemon-publication-check.json) covers the two English reports and selected evidence. The [earlier validation record](validation/publication-check.json) applies to the preceding three-application publication.
 
-反编译证据来自对应 APK，权利归原权利人；本仓库按分析目的选取文本证据。报告保留原工具与作者的证据来源说明。
+Decompiled evidence derives from the identified software samples; rights in the original code remain with the respective rights holders. The repository publishes selected text for analysis, not APK binaries or a complete source redistribution.

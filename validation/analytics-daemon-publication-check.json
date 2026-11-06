@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-07",
+  "scope": "Two English static reverse-engineering reports and selected evidence",
+  "samples": {
+    "checkedLocally": 2,
+    "sizeAndSha256Matched": true,
+    "binariesPublished": false
+  },
+  "evidence": {
+    "entries": 39,
+    "originalSourceLinesCompared": 5581,
+    "sourceFileHashesMatched": true,
+    "unredactedLinesMatched": true,
+    "redactedLines": 1,
+    "redactionCategory": "Embedded SDK key identifier"
+  },
+  "documents": {
+    "reportsInEnglish": true,
+    "localLinksAndAnchorsChecked": 72,
+    "conversationTranscriptsIncluded": false,
+    "rawOriginalReportsIncluded": false
+  },
+  "privacyReview": {
+    "repositoryRuleScanPassed": true,
+    "addedTextManuallyReviewed": true,
+    "literalCandidatesReviewed": [
+      "AES transformation name",
+      "Generic gallery path",
+      "Embedded MQS exception-data name",
+      "Generic performance data path"
+    ],
+    "deviceRecordsExcluded": true,
+    "personalPathsExcluded": true,
+    "staffContactsExcluded": true,
+    "credentialAndKeyValuesExcludedFromAdditions": true
+  },
+  "analysisLimitations": [
+    "Static evidence does not establish execution on a particular device",
+    "No endpoint was contacted to validate the APK's behavior",
+    "External native-service behavior and server retention remain unobserved"
+  ]
+}

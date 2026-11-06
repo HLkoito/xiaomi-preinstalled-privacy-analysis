@@ -14,8 +14,23 @@
     },
     {
       "path": "README.md",
-      "bytes": 3451,
-      "sha256": "0b764fdd95de0b9306b9f55cea4136a057258b39850a801eff3e7ca974d07aae"
+      "bytes": 3624,
+      "sha256": "3a1fa31c886efc956a8a57c35fbba97b83bc669d0eb2b454a522d0a112d99a1d"
+    },
+    {
+      "path": "apps/analytics/EVIDENCE.md",
+      "bytes": 131678,
+      "sha256": "92b00b8615a39d2eb1b2dbe20510e5b9e2733d38516632da8e9f87be0fbda084"
+    },
+    {
+      "path": "apps/analytics/REPORT.md",
+      "bytes": 21366,
+      "sha256": "a651c6561b5f55e80703c066f6127ff1db5b666a19172422ea4391c0e8e749c3"
+    },
+    {
+      "path": "apps/analytics/evidence-index.json",
+      "bytes": 4969,
+      "sha256": "df152d51c9ecc6ca915ae0e0a7f95c76f8d2ea59252a71ab4e84b811d4427f00"
     },
     {
       "path": "apps/guardprovider/REPORT.md",
@@ -146,6 +161,21 @@
       "path": "apps/guardprovider/evidence/java/z/b.java",
       "bytes": 1734,
       "sha256": "ff315d44cc02e4a5cd15eb771a1be905862244ca9b17d98fad36fdef26cfeaa3"
+    },
+    {
+      "path": "apps/miuidaemon/EVIDENCE.md",
+      "bytes": 157621,
+      "sha256": "b360825d9328634395c4cad236d0a475ed393ca2aff56348bc85bfeff5e59a09"
+    },
+    {
+      "path": "apps/miuidaemon/REPORT.md",
+      "bytes": 21646,
+      "sha256": "d811facbb25486ad5a2e89e0c091db78a4cb0997f7167f64e130e3de47e71a66"
+    },
+    {
+      "path": "apps/miuidaemon/evidence-index.json",
+      "bytes": 7093,
+      "sha256": "e7b71025ee2cc039cafd5d6a22435a15881a76644a6e2443987aa0f4f726a052"
     },
     {
       "path": "apps/securitycenter/REPORT.md",
@@ -588,6 +618,11 @@
       "sha256": "ba37b7537f6babdb2c1fbabd49f8fb8cc4b50b6c30f5e85ced9fa84905e9641c"
     },
     {
+      "path": "docs/ANALYTICS_DAEMON_PUBLICATION.md",
+      "bytes": 3834,
+      "sha256": "2cfb8acd4dd47d627ee2144f288dacced1d255aff392fd95870a6a6280302473"
+    },
+    {
       "path": "docs/DATA_FLOWS.md",
       "bytes": 5493,
       "sha256": "3b1c5265ba208a747e95cdc96e1300a3a675cbe27e42da4ce1b0420c661b0239"
@@ -604,8 +639,8 @@
     },
     {
       "path": "samples/manifest.json",
-      "bytes": 993,
-      "sha256": "af4bfd9b677743b9ffd08ffa49f9524890e281d91a945715ebf0a87c3d70a3cf"
+      "bytes": 1541,
+      "sha256": "143d57c47acfbb4544f58b0771c2a2d888af3e41089308aca06d47d586b75abd"
     },
     {
       "path": "tools/privacy-check.mjs",
@@ -616,6 +651,11 @@
       "path": "tools/verify-integrity.mjs",
       "bytes": 833,
       "sha256": "262f1141c763a859ec624e75c5ba775e90deda7a7edf28f04ee6afd5b2e005cf"
+    },
+    {
+      "path": "validation/analytics-daemon-publication-check.json",
+      "bytes": 1328,
+      "sha256": "65638772bc51fd52a8c46b392c217c842879d184019d0bbc29ae8258ca6dcfd4"
     },
     {
       "path": "validation/publication-check.json",

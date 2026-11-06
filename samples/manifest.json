@@ -1,5 +1,5 @@
 {
-  "scope": "Three preinstalled applications exported from one source device; static code analysis",
+  "scope": "Five preinstalled application samples; static code analysis. Acquisition-device identity is excluded.",
   "samples": [
     {
       "package": "com.mobiletools.systemhelper",
@@ -24,6 +24,22 @@
       "fileName": "MIUISecurityCenter-10.4.9-250402.0.1.apk",
       "bytes": 66917411,
       "sha256": "fc63de0eb68016fc2c7469ec6d33364ffef073643fea9e86781e5fcb1c678cfd"
+    },
+    {
+      "package": "com.miui.analytics",
+      "versionName": "6.33.0",
+      "versionCode": 2026091500,
+      "fileName": "com.miui.analytics-base.apk",
+      "bytes": 525597,
+      "sha256": "a3656199f013e2f68bc20022f941122a13ce99e33c5df1cef054c9267189d73f"
+    },
+    {
+      "package": "com.miui.daemon",
+      "versionName": "2.0",
+      "versionCode": 30,
+      "fileName": "com.miui.daemon-MiuiDaemon.apk",
+      "bytes": 2605685,
+      "sha256": "fd6da9078566c0405cf4c76394c6cff4d1637b63f2cbcd0ebf21c49e1c4dddaa"
     }
   ]
 }
