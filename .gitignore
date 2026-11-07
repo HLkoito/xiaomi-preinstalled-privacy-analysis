@@ -1,0 +1,18 @@
+# Source device exports and binary artifacts stay local.
+*.apk
+*.dex
+*.so
+*.db
+*.sqlite*
+*.jsonl
+*.zstd
+*.har
+*.pcap*
+*.saz
+*.pem
+*.key
+*.log
+.env*
+node_modules/
+.DS_Store
+Thumbs.db

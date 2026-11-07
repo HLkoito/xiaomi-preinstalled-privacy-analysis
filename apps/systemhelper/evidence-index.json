@@ -1,0 +1,204 @@
+{
+  "scope": "Selected static decompiled files from the identified APK; not runtime captures or all application code",
+  "source_apk_sha256": "efa1af0d0be75985701fd0eca79a90f0be0bb9fd2735245915200ec1a3e9657f",
+  "files": [
+    {
+      "path": "evidence/AndroidManifest.xml",
+      "role": "Component and permission declarations",
+      "sha256": "02dca52bc4405b5c4d45481acb0333ca633fcf7b37884be769425dec2f732cb3",
+      "bytes": 3920,
+      "lines": 50,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/d0/g.smali",
+      "role": "Data objects, JSON serialization, and Cell ID and LAC",
+      "sha256": "c97b871857aa59464f716acb4a181eb7f6ae089ab7e4a6a2d06c7953b42aea65",
+      "bytes": 54435,
+      "lines": 2188,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/d0/i.smali",
+      "role": "Application records collected with UsageStats and NetworkStats",
+      "sha256": "4c9bf9e0ab776bf09bba788031f354337ea53790bf5b688a6c5fce3fb07f1d28",
+      "bytes": 15217,
+      "lines": 666,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/d0/k.smali",
+      "role": "Full JSON logging, encryption, endpoint lookup, and transmission",
+      "sha256": "f5192f341ce6606ffb9f709270a87592aa5a1da649a19bd23754cfd3b7892989",
+      "bytes": 15463,
+      "lines": 644,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/e0/c2.smali",
+      "role": "Vendor collector selection, gates, scheduling, and MD5 for fields on non-China Unicom SIMs",
+      "sha256": "ad392af3a3e2bf72d46d29eae891a6400e8dbfd3ff7befbe7a46c30b27964c6e",
+      "bytes": 115095,
+      "lines": 4290,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/e0/r.smali",
+      "role": "Dual-SIM collector base class and cell reads",
+      "sha256": "d91abcf425ecf2963fcd134787b0249223f72d79347c0a184ea6e8b2d11a00f3",
+      "bytes": 71727,
+      "lines": 2949,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/e0/y1.smali",
+      "role": "Xiaomi-specific collector with multiple models and branches",
+      "sha256": "a27fd4a12b8ed87561f9af4bea9533761e3e2250b38005ef4daf04a55018c5cd",
+      "bytes": 77245,
+      "lines": 3225,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/f0/b.smali",
+      "role": "Application-record field serialization",
+      "sha256": "397848d15b16d536384911c6094c05b33ba0a6d7a0cea6f48ed2703afa3d2aef",
+      "bytes": 9700,
+      "lines": 404,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/f0/c.smali",
+      "role": "AES, MD5, and Base64 wrapping",
+      "sha256": "4e142f4939e20e67972fe760f7c8984574be87d60d4568e5631b147d7e70b1a1",
+      "bytes": 4885,
+      "lines": 189,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/f0/k.smali",
+      "role": "RSA public-key wrapping",
+      "sha256": "b00885b48f082c8cf96f04d8123ecbdf0ac2477d59072bde8c16fd4e2bfdf70f",
+      "bytes": 2947,
+      "lines": 137,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/f0/g.smali",
+      "role": "HTTP POST implementation",
+      "sha256": "6873f108724de5621dc3bb1ef1031f9bcf23a01059fd1065dae5fc46dbc847a8",
+      "bytes": 5261,
+      "lines": 207,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/f0/f.smali",
+      "role": "Default endpoint, intervals, and optional collection switches that are off",
+      "sha256": "d3e6c70c925d53cd8710dad390f0fb461f1bd6e18daca7ce50f774b930d8d222",
+      "bytes": 1513,
+      "lines": 70,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/f0/l.smali",
+      "role": "Reporting endpoint and intervals in SharedPreferences",
+      "sha256": "ba37b7537f6babdb2c1fbabd49f8fb8cc4b50b6c30f5e85ced9fa84905e9641c",
+      "bytes": 19592,
+      "lines": 779,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/f0/d.smali",
+      "role": "Failed-upload history cache and entry limit",
+      "sha256": "a439dc15b974e1047faff572e53eebd91a6cd8d6ab23b68c7aa884b87a735916",
+      "bytes": 12531,
+      "lines": 523,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/com/mobiletools/systemhelper/service/RegisterHelperService.smali",
+      "role": "Exported service onBind",
+      "sha256": "76bf3ce811f69afee1b42c9271f40a41b55f85bbf428c7ad72fc494397452653",
+      "bytes": 3002,
+      "lines": 113,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/com/mobiletools/systemhelper/service/RegisterHelperService$a.smali",
+      "role": "Binder implementation for writing configuration",
+      "sha256": "011853557174353e9f1d50c4f8cae3954ae08a244233abe3a5db03156dfef67c",
+      "bytes": 4694,
+      "lines": 145,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/com/mobiletools/systemhelper/service/a$a.smali",
+      "role": "Binder onTransact dispatch",
+      "sha256": "1ffc31f80bc645ccf23552fc6bb505cd2b921c008237ce0ae8f4c9bb51f51a46",
+      "bytes": 3365,
+      "lines": 147,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/com/mobiletools/systemhelper/control/OnBootReceiver.smali",
+      "role": "Boot and delayed start",
+      "sha256": "4cbba1439f118559f73160a0cded0169aeec6b0f0a9f972b379ff3edff065d07",
+      "bytes": 13028,
+      "lines": 446,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/com/mobiletools/systemhelper/control/ScheduleRegisterReceiver.smali",
+      "role": "Regular periodic task",
+      "sha256": "44b86cd8cd3d667780af7be8b8544cb032ad7f6565f92959b6a389dbea76ef39",
+      "bytes": 3435,
+      "lines": 128,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/com/mobiletools/systemhelper/control/AppInfoRegisterReceiver.smali",
+      "role": "Periodic application statistics task",
+      "sha256": "9838e26f88832ca2942235febadced7985eb829f151973e47e6a6f133aa819b7",
+      "bytes": 3429,
+      "lines": 128,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/com/mobiletools/systemhelper/control/SIMStateReceiver.smali",
+      "role": "SIM change task",
+      "sha256": "35ab35512ee1bf5a4c7fe9acfa766649069e1ae5cfb83fa6abfb543495fd50cc",
+      "bytes": 7406,
+      "lines": 270,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    },
+    {
+      "path": "evidence/smali/com/mobiletools/systemhelper/control/ConnectStateReceiver.smali",
+      "role": "Evidence that the examined connectivity-change path only logs the event",
+      "sha256": "c74434d28be8a5b3ae8b489ffa8086fca407794366fcd384d5e3ee9b2218466f",
+      "bytes": 4787,
+      "lines": 169,
+      "line_numbers": "Original decompiled text lines; not smali .line debug directives",
+      "modified": false
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "sampleScope": "Static decompiled excerpts; no device records",
+  "entries": [
+    {
+      "id": "D01",
+      "source": "sources/com/miui/daemon/BaseDaemonApplication.java",
+      "sourceSha256": "2f8bbb593b45eb6153fe6863201d45ac461fdc2dd040252b723c4e675afb2e93",
+      "originalLineRanges": [
+        [
+          1,
+          40
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D02",
+      "source": "sources/com/miui/daemon/performance/onetrack/memory/AppMemoryTrack.java",
+      "sourceSha256": "0c8ba0621f9ca58b7db1d5dd56c35a7c2e8b7d3972a53e265e8b6fde293c664a",
+      "originalLineRanges": [
+        [
+          1,
+          309
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D03",
+      "source": "sources/com/miui/daemon/mqsas/jobs/EventUploadService.java",
+      "sourceSha256": "d5dcd3dec5986d1d961b6dea98e7c9ba5de2490a6625ab4a70df6f09e93331fc",
+      "originalLineRanges": [
+        [
+          1,
+          90
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D04",
+      "source": "sources/com/miui/daemon/performance/statistics/activitystats/ActivityUtils.java",
+      "sourceSha256": "1af8d69044d1f1cf90a4f672ad600cdf315cab0ec6019e7b5aca4beee73a02bc",
+      "originalLineRanges": [
+        [
+          1,
+          177
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D05",
+      "source": "sources/com/miui/daemon/performance/statistics/notifications/NotificationUtils.java",
+      "sourceSha256": "c97be2e2d7288f23bbdc67d1f5ee7b064706ee2fb91807184ba2909c82e22eb7",
+      "originalLineRanges": [
+        [
+          1,
+          146
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D06",
+      "source": "sources/com/miui/daemon/mqsas/upload/PerfEventUploader.java",
+      "sourceSha256": "139c8445c6aeb478e4137de26a0e851f1a8a26838dc216c3e6cbf0cd13fb9b35",
+      "originalLineRanges": [
+        [
+          1,
+          90
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D07",
+      "source": "sources/com/miui/daemon/mqsas/utils/DeviceUtil.java",
+      "sourceSha256": "8e0da10478bc800cbea5952edaf1b1746e49d3b9ead0f9b7d68677e48f07b45d",
+      "originalLineRanges": [
+        [
+          1,
+          330
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D08",
+      "source": "sources/com/miui/daemon/mqsas/upload/BaseUploader.java",
+      "sourceSha256": "9be2feecf4b4d34f48b685402232b9f7df33389c4816045aabacdf1b28d19f5f",
+      "originalLineRanges": [
+        [
+          65,
+          145
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D09",
+      "source": "sources/com/miui/daemon/performance/statistics/network/DataUploader.java",
+      "sourceSha256": "3a955a7bd4930d6ef52002859da145586764b244d374651635769781c003017f",
+      "originalLineRanges": [
+        [
+          38,
+          105
+        ],
+        [
+          143,
+          205
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D10",
+      "source": "sources/com/miui/daemon/mqsas/upload/ExceptionUploader.java",
+      "sourceSha256": "e7587eeaccceac2be49d076b77d13d898d885e77b4adfbdddf741b2fde2f63ae",
+      "originalLineRanges": [
+        [
+          1,
+          180
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D11",
+      "source": "sources/com/miui/daemon/mqsas/upload/HeartBeatUploader.java",
+      "sourceSha256": "943a893a0a2c60f7a713b2d6df3d5521717e3a829c5a1e30731cde50aee006f6",
+      "originalLineRanges": [
+        [
+          1,
+          275
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D12",
+      "source": "sources/com/miui/daemon/mqsas/upload/FingerprintUploader.java",
+      "sourceSha256": "11217b6e2de5f0b42556fdcd0c08d4bf3407a389597a867a37e04f840a5fb39d",
+      "originalLineRanges": [
+        [
+          1,
+          210
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D13",
+      "source": "sources/com/miui/daemon/mqsas/upload/BiometricInfoUploader.java",
+      "sourceSha256": "b62d230ea43f85693e0bd5937f4ffb838bf97bb358da4042790466006902bb33",
+      "originalLineRanges": [
+        [
+          1,
+          210
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D14",
+      "source": "sources/com/miui/daemon/mqsas/mobilediag/MobileNetworkCapture.java",
+      "sourceSha256": "b27d0703d3a1fc504ab08d0bbc52867e55b322ed46b1d95f2f56b4cc00082673",
+      "originalLineRanges": [
+        [
+          75,
+          180
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D15",
+      "source": "sources/com/miui/daemon/fileobserver/FileObserverApp.java",
+      "sourceSha256": "af62e7cb52f96e63047ef05fdb12a9680c196122b94c47a1a8b6139dbada5f8e",
+      "originalLineRanges": [
+        [
+          1,
+          42
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D16",
+      "source": "sources/com/miui/daemon/mqsas/utils/Utils.java",
+      "sourceSha256": "3f54d118f38486f5a10989458e5d9dd4e391fe4ea2e5e4005e12ab80c63cc7fb",
+      "originalLineRanges": [
+        [
+          230,
+          310
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D17",
+      "source": "sources/com/miui/daemon/performance/onetrack/TrackAnalytics.java",
+      "sourceSha256": "424e9d10ca635710361c6b079593cfc63be55e6a7a387da45ba14a65b932162b",
+      "originalLineRanges": [
+        [
+          1,
+          78
+        ]
+      ],
+      "redactedLines": [
+        37
+      ]
+    },
+    {
+      "id": "D18",
+      "source": "sources/com/miui/daemon/mqsas/utils/PrivacyUtils.java",
+      "sourceSha256": "571e54524a3d21c1149e41a4fb4588dc7ba10da1ef267804738527e6852f0d59",
+      "originalLineRanges": [
+        [
+          1,
+          111
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D19",
+      "source": "sources/com/miui/daemon/performance/statistics/network/TrustAllCerts.java",
+      "sourceSha256": "3c13094f8bc5086ddbe3c9595ed20b966d1e4812f2f8a0d1636a638b4d200504",
+      "originalLineRanges": [
+        [
+          1,
+          21
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D20",
+      "source": "sources/com/miui/daemon/mqsas/utils/HttpUtils.java",
+      "sourceSha256": "c0901419b5db43b04d7f94e0271e6e013e76188f7bcbb2d5e0394b2217d7919b",
+      "originalLineRanges": [
+        [
+          1,
+          150
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D21",
+      "source": "sources/com/miui/daemon/fileobserver/core/MiuiFileObserver.java",
+      "sourceSha256": "aec8f662b667a5624306aab414dcf8502a0cc30a9062499e3995b0398939f90e",
+      "originalLineRanges": [
+        [
+          1,
+          20
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "D22",
+      "source": "sources/com/miui/daemon/fileobserver/FileObserverManager.java",
+      "sourceSha256": "7cc2b8d92b1effc397f60fe52c838f44c85b42d64e3af19d8fcf402792cf6f07",
+      "originalLineRanges": [
+        [
+          1,
+          83
+        ]
+      ],
+      "redactedLines": []
+    }
+  ]
+}

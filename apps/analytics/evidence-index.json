@@ -1,0 +1,217 @@
+{
+  "sampleScope": "Static decompiled excerpts; no device records",
+  "entries": [
+    {
+      "id": "A01",
+      "source": "sources/a/b/a/e/h0/b.java",
+      "sourceSha256": "ebd3e0899c0e959e772026ff578e242396c5ca67f497471ed19560146b6d4285",
+      "originalLineRanges": [
+        [
+          182,
+          230
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A02",
+      "source": "sources/a/b/a/e/h0/b.java",
+      "sourceSha256": "ebd3e0899c0e959e772026ff578e242396c5ca67f497471ed19560146b6d4285",
+      "originalLineRanges": [
+        [
+          1950,
+          2100
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A03",
+      "source": "sources/a/b/a/c/v/j.java",
+      "sourceSha256": "af890d42724ffcfb2179f6c90003c7575cb79773009f97f75f42ee404246c4cc",
+      "originalLineRanges": [
+        [
+          1,
+          275
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A04",
+      "source": "fallback/a/b/a/e/h0/m.java",
+      "sourceSha256": "606d8f6f96dab72c6b266ab8cd340668c32ebddd8fc4899980b35c34a302f2ce",
+      "originalLineRanges": [
+        [
+          120,
+          293
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A05",
+      "source": "sources/a/b/a/e/h0/y.java",
+      "sourceSha256": "872cbc28487cd46874fee446f9a31a7552831c2e6e69d3ded3016f3d0e31a1a0",
+      "originalLineRanges": [
+        [
+          1,
+          400
+        ],
+        [
+          1090,
+          1160
+        ],
+        [
+          2890,
+          2950
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A06",
+      "source": "sources/a/b/a/e/h0/w.java",
+      "sourceSha256": "51418cf7c6b6a9b43beb66b468c2b9866de5ce639f3160bc279ee56ca19789eb",
+      "originalLineRanges": [
+        [
+          1,
+          143
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A07",
+      "source": "sources/a/b/a/b/a.java",
+      "sourceSha256": "8b0683ca4c147d1ece391e3c7c30bf78463f2ed78cf96802ac844e8009638339",
+      "originalLineRanges": [
+        [
+          1,
+          152
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A08",
+      "source": "sources/a/b/a/e/l.java",
+      "sourceSha256": "ba983f00d7f72042b419cdf8a69de9fbe97d4ba883d528f419e8da182bad8776",
+      "originalLineRanges": [
+        [
+          1,
+          53
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A09",
+      "source": "sources/a/b/a/e/f0/f.java",
+      "sourceSha256": "001ab784e33a1bdee8c9a7d8db5cbbd1f56d8aee420e8f6caaaf84cd377b572a",
+      "originalLineRanges": [
+        [
+          400,
+          535
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A10",
+      "source": "sources/a/b/a/e/l0/n.java",
+      "sourceSha256": "b852b358bfffc1d8f732bff86e2aaced8ce7f989eaded83a52b5ec6c18bdf1a1",
+      "originalLineRanges": [
+        [
+          1,
+          84
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A11",
+      "source": "sources/a/b/a/e/f0/z.java",
+      "sourceSha256": "b421db109e5ad3a92123e27a71813f7f987c48d3731de649ea228309f37370e6",
+      "originalLineRanges": [
+        [
+          1,
+          220
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A12",
+      "source": "sources/a/b/a/e/y.java",
+      "sourceSha256": "427a5b962d517b94381399a5a3ff8efd4f0fda7428debd49867b1204529c74f0",
+      "originalLineRanges": [
+        [
+          1,
+          200
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A13",
+      "source": "sources/a/b/a/f/g/d.java",
+      "sourceSha256": "5ab3ab9106fddbcb01265601bc7b4722fd868453b5b2b3800cc28fc2b5ccb3d8",
+      "originalLineRanges": [
+        [
+          1,
+          230
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A14",
+      "source": "resources/res/xml/remote_config_defaults.xml",
+      "sourceSha256": "abb7d784080e16d585b230f01dc4d46564b23a2248fb3015270cc465751f8bd1",
+      "originalLineRanges": [
+        [
+          1,
+          75
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A15",
+      "source": "resources/res/xml/network_security_config.xml",
+      "sourceSha256": "1e9049e7e951184595011afe7a628965a8995868944795f7606bbb0ae6b30b4c",
+      "originalLineRanges": [
+        [
+          1,
+          4
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A16",
+      "source": "sources/a/b/a/e/g0/a.java",
+      "sourceSha256": "a36d704144e5a6fbcba59104b6a7958088f3bc40d36469e8a7d432f940417a7f",
+      "originalLineRanges": [
+        [
+          70,
+          125
+        ]
+      ],
+      "redactedLines": []
+    },
+    {
+      "id": "A17",
+      "source": "sources/a/b/a/e/g.java",
+      "sourceSha256": "71460a385872d18ba98379aab1932fd4831aa21afbbd5a72c02a8257a85c1e34",
+      "originalLineRanges": [
+        [
+          100,
+          185
+        ]
+      ],
+      "redactedLines": []
+    }
+  ]
+}

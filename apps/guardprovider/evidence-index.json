@@ -1,0 +1,167 @@
+{
+  "schema": 1,
+  "scope": "Selected static decompilation evidence; no device runtime logs",
+  "files": [
+    {
+      "path": "evidence/java/j0/c.java",
+      "source_relative_path": "src/sources/j0/c.java",
+      "purpose": "Application enumeration, signature MD5, JSON inventory, and destination URL",
+      "original_sha256": "4f207e374ab8c3040b88977626f26e5ee0a4926e5757b2d70c4fe672509aead5",
+      "published_sha256": "4f207e374ab8c3040b88977626f26e5ee0a4926e5757b2d70c4fe672509aead5",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 167
+    },
+    {
+      "path": "evidence/java/h0/b.java",
+      "source_relative_path": "src/sources/h0/b.java",
+      "purpose": "Network permission check and JSON POST",
+      "original_sha256": "b3be0ee5d395907a446573491a079d429038f990b98db2934ed346d9f35aaa6d",
+      "published_sha256": "b3be0ee5d395907a446573491a079d429038f990b98db2934ed346d9f35aaa6d",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 340
+    },
+    {
+      "path": "evidence/java/w0/b.java",
+      "source_relative_path": "src/sources/w0/b.java",
+      "purpose": "Persistent UUID",
+      "original_sha256": "7cc8c35bd6af8226354f54c77657d4ec4b261c185700db771fee743c5b703775",
+      "published_sha256": "7cc8c35bd6af8226354f54c77657d4ec4b261c185700db771fee743c5b703775",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 28
+    },
+    {
+      "path": "evidence/java/com/miui/guardprovider/GuardApplication.java",
+      "source_relative_path": "src/sources/com/miui/guardprovider/GuardApplication.java",
+      "purpose": "Global network switch",
+      "original_sha256": "0fa056ec2394de2f6274dbbd4d95f180ab0bd1dd79cc40a0729b55be432294af",
+      "published_sha256": "0fa056ec2394de2f6274dbbd4d95f180ab0bd1dd79cc40a0729b55be432294af",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 88
+    },
+    {
+      "path": "evidence/java/com/miui/guardprovider/engine/tencent/TencentEngine.java",
+      "source_relative_path": "src/sources/com/miui/guardprovider/engine/tencent/TencentEngine.java",
+      "purpose": "Wi-Fi detection entry point and Android ID and model passed to the SDK",
+      "original_sha256": "41db044a8c8c9c66cf1e6ea23c03f41233af1dcc479c7f8dee26b53faf39d30f",
+      "published_sha256": "41db044a8c8c9c66cf1e6ea23c03f41233af1dcc479c7f8dee26b53faf39d30f",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 510
+    },
+    {
+      "path": "evidence/java/tmsdkobf/p9.java",
+      "source_relative_path": "src/sources/tmsdkobf/p9.java",
+      "purpose": "Wi-Fi fields, DNS, and cloud request command 794",
+      "original_sha256": "4b416af86e6eeeb5b4dd329f94285a35975d57f2975b1ffb5f829b21fd1b4e26",
+      "published_sha256": "4b416af86e6eeeb5b4dd329f94285a35975d57f2975b1ffb5f829b21fd1b4e26",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 549
+    },
+    {
+      "path": "evidence/java/com/xiaomi/onetrack/api/c.java",
+      "source_relative_path": "src/sources/com/xiaomi/onetrack/api/c.java",
+      "purpose": "DAU region gate and identifier-list calls",
+      "original_sha256": "71152cf72e57e0faf8a20356182edffcc17a5f56dd95ab8b975b42e366b4d95d",
+      "published_sha256": "71152cf72e57e0faf8a20356182edffcc17a5f56dd95ab8b975b42e366b4d95d",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 206
+    },
+    {
+      "path": "evidence/java/com/xiaomi/onetrack/util/DeviceUtil.java",
+      "source_relative_path": "src/sources/com/xiaomi/onetrack/util/DeviceUtil.java",
+      "purpose": "IMEI and IMSI reads and MD5 conversion",
+      "original_sha256": "7f74724c12c94cfb1fb69dcbe5e15fe00d67d5a8662a6fe124c8cfec1188f777",
+      "published_sha256": "7f74724c12c94cfb1fb69dcbe5e15fe00d67d5a8662a6fe124c8cfec1188f777",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 1185
+    },
+    {
+      "path": "evidence/java/com/xiaomi/onetrack/d/d.java",
+      "source_relative_path": "src/sources/com/xiaomi/onetrack/d/d.java",
+      "purpose": "Digest functions",
+      "original_sha256": "8392c005b6afe1316a1ba8afbef907990f8733284b13110dd316621d1c430831",
+      "published_sha256": "8392c005b6afe1316a1ba8afbef907990f8733284b13110dd316621d1c430831",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 130
+    },
+    {
+      "path": "evidence/java/com/xiaomi/onetrack/util/x.java",
+      "source_relative_path": "src/sources/com/xiaomi/onetrack/util/x.java",
+      "purpose": "Default analytics endpoint and regional overrides",
+      "original_sha256": "4a1f9011e4557562d7a44cf3bdb3ade9562a811c18ef069cfa701cd47e5644b2",
+      "published_sha256": "4a1f9011e4557562d7a44cf3bdb3ade9562a811c18ef069cfa701cd47e5644b2",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 180
+    },
+    {
+      "path": "evidence/java/com/xiaomi/onetrack/Configuration.java",
+      "source_relative_path": "src/sources/com/xiaomi/onetrack/Configuration.java",
+      "purpose": "Default configuration",
+      "original_sha256": "16262c27689c06b18cf80d5bd055a46249a7f08f99ce17440a8bbd5e9859463b",
+      "published_sha256": "16262c27689c06b18cf80d5bd055a46249a7f08f99ce17440a8bbd5e9859463b",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 294
+    },
+    {
+      "path": "evidence/java/z/b.java",
+      "source_relative_path": "src/sources/z/b.java",
+      "purpose": "Host analytics initialization and network permission",
+      "original_sha256": "ff315d44cc02e4a5cd15eb771a1be905862244ca9b17d98fad36fdef26cfeaa3",
+      "published_sha256": "ff315d44cc02e4a5cd15eb771a1be905862244ca9b17d98fad36fdef26cfeaa3",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 51
+    },
+    {
+      "path": "evidence/java/com/miui/guardprovider/engine/mi/MiEngineNG.java",
+      "source_relative_path": "src/sources/com/miui/guardprovider/engine/mi/MiEngineNG.java",
+      "purpose": "Scan result and installer analytics",
+      "original_sha256": "55eaee13aedcbb679c7e4e5fa0678413dff4465317ad337c045db968f0c2a2a7",
+      "published_sha256": "55eaee13aedcbb679c7e4e5fa0678413dff4465317ad337c045db968f0c2a2a7",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 315
+    },
+    {
+      "path": "evidence/java/p0/f.java",
+      "source_relative_path": "src/sources/p0/f.java",
+      "purpose": "Cloud-scan metadata",
+      "original_sha256": "4598ade02c5d37cdf478321a2f21dc7d63f507d72c849428309a8e7da83ad0b7",
+      "published_sha256": "4598ade02c5d37cdf478321a2f21dc7d63f507d72c849428309a8e7da83ad0b7",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 387
+    },
+    {
+      "path": "evidence/java/q0/d.java",
+      "source_relative_path": "src/sources/q0/d.java",
+      "purpose": "Cloud-scan API",
+      "original_sha256": "b0ef5bac689df18f5ff58bb460a706ccd3d029b998265217d552485a5f930494",
+      "published_sha256": "b0ef5bac689df18f5ff58bb460a706ccd3d029b998265217d552485a5f930494",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 16
+    },
+    {
+      "path": "evidence/java/q0/m.java",
+      "source_relative_path": "src/sources/q0/m.java",
+      "purpose": "Cloud-scan base URL",
+      "original_sha256": "5e4eff34d8130e5bc00952545c83c9f0541539b97d5fd4fe4f47928356e63534",
+      "published_sha256": "5e4eff34d8130e5bc00952545c83c9f0541539b97d5fd4fe4f47928356e63534",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 15
+    },
+    {
+      "path": "evidence/java/com/miui/guardprovider/sdk/android/pojo/networkdomain/CloudScanApkInfo.java",
+      "source_relative_path": "src/sources/com/miui/guardprovider/sdk/android/pojo/networkdomain/CloudScanApkInfo.java",
+      "purpose": "Cloud-scan payload fields",
+      "original_sha256": "9ba58c89604c685d27cacf8f6ba5068c521f290a22e9d2ce95db0caaf57f1f21",
+      "published_sha256": "9ba58c89604c685d27cacf8f6ba5068c521f290a22e9d2ce95db0caaf57f1f21",
+      "line_numbering": "unchanged original decompiled file; 1-based",
+      "lines": 124
+    },
+    {
+      "path": "evidence/AndroidManifest.xml",
+      "source_relative_path": "apktool/AndroidManifest.xml",
+      "purpose": "Component and permission declarations",
+      "original_sha256": "e7162ea7c6b63cfb8218e536dd6c26bf60a6e7654e68976b78c82f6348a6c89e",
+      "published_sha256": "e7162ea7c6b63cfb8218e536dd6c26bf60a6e7654e68976b78c82f6348a6c89e",
+      "line_numbering": "unchanged original decoded file; 1-based"
+    }
+  ]
+}

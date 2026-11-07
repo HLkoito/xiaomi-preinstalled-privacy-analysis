@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="com.miui.guardprovider" platformBuildVersionCode="33" platformBuildVersionName="13">
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:maxSdkVersion="29" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:maxSdkVersion="29" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.PEERS_MAC_ADDRESS"/>
+    <uses-permission android:name="com.miui.securitycenter.permission.ACCESS_SECURITY_CENTER_PROVIDER"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.android.settings.permission.CLOUD_SETTINGS_PROVIDER"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.ACCESS_MTP"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="miui.permission.READ_AND_WIRTE_PERMISSION_MANAGER"/>
+    <permission android:name="com.miui.guardprovider.permission.Guard_Provider" android:protectionLevel="signature|privileged"/>
+    <uses-permission android:name="com.miui.guardprovider.permission.Guard_Provider"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="com.miui.guardprovider.permission.TMF_SHARK"/>
+    <permission android:name="com.miui.guardprovider.permission.TMF_SHARK" android:protectionLevel="signature"/>
+    <permission android:name="com.miui.guardprovider.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.miui.guardprovider.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.miui.guardprovider.GuardApplication" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true">
+        <provider android:authorities="guard" android:exported="true" android:name="com.miui.guardprovider.GuardProvider" android:permission="com.miui.guardprovider.permission.Guard_Provider"/>
+        <meta-data android:name="AVL_OPENSDK_APPKEY" android:value="D5DFB878335A3EF4E76F60ED470B8EC8"/>
+        <meta-data android:name="guardprovider.support.mix.scan" android:value="true"/>
+        <meta-data android:name="guardprovider.scan_properties" android:value="2"/>
+        <service android:exported="true" android:name="com.miui.guardprovider.manager.SecurityService" android:permission="com.miui.guardprovider.permission.Guard_Provider">
+            <intent-filter>
+                <action android:name="com.miui.guardprovider.action.antivirusservice"/>
+                <action android:name="com.miui.guardprovider.action.urlscan"/>
+            </intent-filter>
+        </service>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <meta-data android:name="textutilities" android:value="2.0"/>
+        <meta-data android:name="core" android:value="2.0"/>
+        <meta-data android:name="devicebaseinfo" android:value="1.0"/>
+    </application>
+</manifest>
